@@ -1,46 +1,26 @@
-<script lang="ts">
-	import MTButton from '../components/mt_button.svelte';
-	import Telegram from '../assets/telegram.svelte';
-	import GitHub from '../assets/github.svelte';
-	import LinkedIn from '../assets/linkedin.svelte';
-	import HabrCareer from '../assets/habr_career.svelte';
-	import Email from '../assets/email.svelte';
+<div class="flex h-screen w-screen">
+	<div class="flex flex-col m-auto w-4/6 h-3/4 space-y-4 text-white">
+		<h1 class="text-4xl font-bold">meetya.dev</h1>
+		
+		<hr class="hr border-t-2" />
 
-	import {
-		PUBLIC_TELEGRAM_LINK,
-		PUBLIC_GITHUB_LINK,
-		PUBLIC_LINKEDIN_LINK,
-		PUBLIC_HABR_CAREER_LINK,
-		PUBLIC_EMAIL_LINK
-	} from '$env/static/public';
-</script>
+		<div class="text-base">Senior Software Engineer</div>
 
-{#snippet telegram()}
-	<Telegram></Telegram>
-{/snippet}
+		<h2 class="text-2xl font-bold">Stack</h2>
 
-{#snippet github()}
-	<GitHub></GitHub>
-{/snippet}
-
-{#snippet linkedin()}
-	<LinkedIn></LinkedIn>
-{/snippet}
-
-{#snippet habrCareer()}
-	<HabrCareer></HabrCareer>
-{/snippet}
-
-{#snippet email()}
-	<Email></Email>
-{/snippet}
-
-<div class="flex min-h-screen items-center justify-center">
-	<div class="flex flex-col gap-y-2.5">
-		<MTButton icon={telegram} link={PUBLIC_TELEGRAM_LINK} text="Telegram"></MTButton>
-		<MTButton icon={github} link={PUBLIC_GITHUB_LINK} text="GitHub"></MTButton>
-		<MTButton icon={linkedin} link={PUBLIC_LINKEDIN_LINK} text="LinkedIn"></MTButton>
-		<MTButton icon={habrCareer} link={PUBLIC_HABR_CAREER_LINK} text="HabrCareer"></MTButton>
-		<MTButton icon={email} link={PUBLIC_EMAIL_LINK} text="E-mail"></MTButton>
+		<div class="flex flex-wrap gap-4">
+			<div class="card w-30 h-12 content-center justify-items-center shadow-xl preset-tonal-primary">
+				<div>Python</div>
+			</div>
+			<div class="card w-30 h-12 content-center justify-items-center shadow-xl preset-tonal-primary">
+				<div>Rust</div>
+			</div>
+			<div class="card w-30 h-12 content-center justify-items-center shadow-xl preset-tonal-primary">
+				<div>PostgreSQL</div>
+			</div>
+			<div class="card w-30 h-12 content-center justify-items-center shadow-xl preset-tonal-primary">
+				<div>Docker</div>
+			</div>
+		</div>
 	</div>
 </div>

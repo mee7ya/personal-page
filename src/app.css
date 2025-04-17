@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
-@theme {
-	--color-mt-dark-purple: #230046;
-	--color-mt-hover-dark-purple: #320064;
-}
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@skeletonlabs/skeleton/themes/terminus';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
