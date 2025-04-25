@@ -10,5 +10,8 @@
 		"sourceMap": true,
 		"strict": true,
 		"moduleResolution": "bundler"
+	},
+	"watchOptions": {
+		"excludeDirectories": ["node_modules", "build"]
 	}
 }

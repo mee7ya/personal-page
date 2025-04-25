@@ -1,11 +1,10 @@
 <svg
-	class="h-5 w-5"
+	width="100%"
+	height="100%"
 	xmlns="http://www.w3.org/2000/svg"
-	height="32"
 	aria-hidden="true"
 	viewBox="0 0 24 24"
 	version="1.1"
-	width="32"
 	data-view-component="true"
 >
 	<path
