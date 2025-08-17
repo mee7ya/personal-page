@@ -32,6 +32,21 @@
 
 		<div class="text-base">Senior Software Engineer</div>
 
+		<div class="flex flex-col space-y-1">
+			<h2 class="text-2xl font-bold">Education</h2>
+			<div class="flex flex-col">
+				<div class="inline-flex justify-between px-4 text-lg font-bold">
+					<div class="w-fit">Innopolis University (BS)</div>
+					<div class="w-fit">2016 - 2020</div>
+				</div>
+				<div class="px-12 text-base">
+					<ul class="list-disc">
+						<li>Computer Science with Data Science track</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 		<h2 class="text-2xl font-bold">Stack</h2>
 
 		<div class="flex flex-wrap gap-4">
